@@ -28,15 +28,17 @@
 
 #logo{
     width: auto;
-    height: 100px;
+    height: 80px;
     object-fit: contain;
     margin-bottom: 20px;
+    padding-right: 5px;
+    border-right: 1px solid gray
 }
 header ul li{
     display: inline;
 }
 header ul li a{
-    color: grey;
+    color: #808080;
     margin-right: 5px;
     text-decoration: none;
 }
@@ -82,10 +84,33 @@ footer{
 
 }
 
+#hero{position: relative;
+}
+    
+
 #med{
-    object-fit: contain;
+    width: 100%;
+    height: 400px;
+    filter: brightness(70%);
+    object-fit: cover;
     border-radius: 10px;
-    position: relative;
+    
+}
+
+#textbanner{
+    color: white;
+    position: absolute;
+    bottom: 60px;
+    left: 50px;
+}
+
+ #teximg{
+    font-size: 30px;
+
+}
+
+#subimg{
+    font-size: 15px;
 }
 
 
