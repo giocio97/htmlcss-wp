@@ -126,6 +126,9 @@ footer{
     color: black;
     margin-bottom: 10px;
 }
+#lead{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .center2{
     float: left;
