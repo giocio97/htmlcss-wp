@@ -20,9 +20,25 @@
 }
 
 /* regola heder */
-header{
-    height: 50px;
-    background-color: rgb(245, 156, 215);
+/* header {
+        height: 100px;
+    
+    /* background-color: rgb(245, 156, 215); */
+
+
+#logo{
+    width: auto;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+header ul li{
+    display: inline;
+}
+header ul li a{
+    color: grey;
+    margin-right: 5px;
+    text-decoration: none;
 }
 
 .row{
@@ -38,7 +54,7 @@ header{
 
     /* debug */
     /* border: solid 2px blue; */
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .row-due::after{
@@ -49,18 +65,27 @@ header{
 
 /* regola footer */
 footer{
-    height: 25px;
-    background-color: blueviolet;
+    text-align: center;
+    /* height: 25px;
+    background-color: blueviolet; */
 }
+
+#cuore{color: red;}
 
 .centro{
     float: left;
     width: 100%;
 
     /* debug */
-    height: 200px;
-    background-color: rgb(250, 228, 103);
+    /* height: 200px;
+    background-color: rgb(250, 228, 103); */
 
+}
+
+#med{
+    object-fit: contain;
+    border-radius: 10px;
+    position: relative;
 }
 
 
@@ -71,8 +96,8 @@ footer{
 
      
     /* debug */
-    height: 50px;
-    background-color: rgb(103, 184, 250);
+    /* height: 50px;
+    background-color: rgb(103, 184, 250); */
 
     
 }
@@ -83,7 +108,7 @@ footer{
     margin-bottom: 10px;
 
     /* debug */
-   height: 500px;
+   /* height: 500px; */
 
     
 }
@@ -95,19 +120,25 @@ footer{
 
    /* debug */
    
-   background-color: rgb(103, 184, 250);
+   /* background-color: rgb(103, 184, 250); */
 
 }
 
 .seconda.colonna {
     width: 540px;
-   margin-right: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
    
 
    /* debug */
   
-   background-color: rgb(103, 184, 250);
+   /* background-color: rgb(103, 184, 250); */
 
+}
+
+.imgcl{
+    object-fit: contain;
+    border-radius: 5px;
 }
 
 .terza.colonna {
@@ -117,6 +148,6 @@ footer{
 
    /* debug */
    
-   background-color: rgb(103, 184, 250);
+   /* background-color: rgb(103, 184, 250); */
 
 }
